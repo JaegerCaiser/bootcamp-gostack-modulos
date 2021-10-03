@@ -23,6 +23,11 @@ interface SignUpFormData {
   email: string;
   password: string;
 }
+const pessoa: SignUpFormData = {
+  name: "teste",
+email : "teste",
+password : "teste",
+}
 
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
